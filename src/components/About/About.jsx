@@ -4,7 +4,7 @@ export const About = () => {
     return (
         <div id="about" className={styles.about__container}>
             <div className={styles.about__media}>
-                <img className={styles.about__img} width={800} src="../../../public/team.png" alt="Team"/>
+                <img className={styles.about__img} width={800} src="https://syntaxconqueror.github.io/siteDeploy/team.png" alt="Team"/>
             </div>
             <div className={styles.about__content}>
                 <span style={{fontSize: 32, marginBottom: "1em"}}>ПРО НАС</span>

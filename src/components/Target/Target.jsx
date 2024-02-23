@@ -18,7 +18,7 @@ export const Target = () => {
                     </ul>
                 </div>
                 <div className={styles.target__media}>
-                    <img className={styles.target__img} src="../../../public/target.png" alt="Target"/>
+                    <img className={styles.target__img} src="https://syntaxconqueror.github.io/siteDeploy/target.png" alt="Target"/>
                 </div>
             </div>
 
