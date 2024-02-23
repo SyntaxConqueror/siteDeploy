@@ -5,7 +5,12 @@
     flex-direction: column;
     background: linear-gradient(to right, #023047, #8ECAE6);
 }
-
+.contact__title {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin: 2em;
+}
 .contact__form {
 
     display: flex;
@@ -44,4 +49,13 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 630px) {
+    .contact__form > input {
+        width: 100%;
+    }
+    .contact__title {
+        font-size: 16px;
+    }
 }

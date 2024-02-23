@@ -18,7 +18,7 @@ export const Contact = () => {
 
     return (
         <div id="contact" className={styles.contact__container}>
-            <div style={{color: "white", textAlign: "center", fontSize: 32, margin: "2em"}}>Якщо ви маєте бажання, ви можете легко зв'язатися з нами, заповнивши форму</div>
+            <div className={styles.contact__title} style={{}}>Якщо ви маєте бажання, ви можете легко зв'язатися з нами, заповнивши форму</div>
             <form className={styles.contact__form} onSubmit={handleSubmit}>
                 <input
                     type="text"
